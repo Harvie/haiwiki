@@ -1,0 +1,25 @@
+===System Menu===
+[[index]]:
+  - main page
+[[wiki/index]]:
+  - index of all pages
+[[sandbox]]:
+  - playground to test your knowledge
+[[menu]]:
+  - menu (relies on template support)
+[[syntax]]:
+  - help on syntax
+[[help]]:
+  - general help
+[[changelog]]:
+  - mostly texy! changelog
+[[wiki/]]:
+  - index of internal pages and plug-ins (mostly for developers)
+
+==External Links==
+pages:[url:./pages/]:
+  - list of pages
+backups:[url:./backup/]:
+  - backed up files
+cache:[url:./cache/]:
+  - texy cache files

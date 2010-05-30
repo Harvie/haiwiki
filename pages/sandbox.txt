@@ -1,0 +1,57 @@
+===nadpis===
+==nejaky text==
+
+* jedna
+* tri
+* dve
+
+|jmeno|cislo bot|barva cepice|
+|------------
+|lolek|28|cervena|
+|bolek|39|modra|
+
+
+
+- Look at "homepage":http://texy.info.
+- Do you know "La Trine":[http://www.latrine.cz/]?
+- This picture [* image.gif *]:www.texy.info is clickable
+
+
+užitím referencí
+----------------
+
+[homepage]:  http://texy.info/ Texy! .(this is homepage)
+[email]:     me@example.com
+
+
+- Look at [homepage]
+- My address is [email]
+- What about "this":[homepage] site?
+
+/---code
+#include <stdio.h>
+#include <stdlib.h>
+
+int test = 1;
+int main(void) {
+	int *ptr;
+	ptr = &test;
+	if(!fork()) {
+		*ptr = 2; 
+		return;
+	}
+	while(test == 1) printf("");
+	printf("lol\n");
+}
+\---
+
+/---html
+<svg width="640" height="480" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
+ <g>
+  <title>Layer 1</title>
+  <rect stroke-width="5" stroke="#000000" fill="#FF0000" id="svg_1" height="122" width="194" y="193" x="266"/>
+  <ellipse ry="88" rx="135" stroke-width="5" stroke="#000000" fill="#008000" id="svg_2" cy="178" cx="223"/>
+ </g>
+</svg>
+\---

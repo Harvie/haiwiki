@@ -1,0 +1,6 @@
+_*
+*.min.php
+cache/*
+backup/*
+dump/*
+downloads/*
