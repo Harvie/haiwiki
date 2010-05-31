@@ -1,5 +1,5 @@
-_*
-*.min.php
+/_*/*
+/*.min.php
 cache/*
 backup/*
 dump/*
